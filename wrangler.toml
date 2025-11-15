@@ -1,0 +1,11 @@
+name = "foxcloud"
+main = "dist/worker.js"
+compatibility_date = "2024-09-23"
+
+[build]
+command = "npm run build"
+
+# Development configuration
+[vars]
+UUID = "b648f265-60c5-43f0-a830-23bbd339b9b4"
+PROXY_IP = "5.129.235.232:443"
